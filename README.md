@@ -77,7 +77,7 @@ Installation and Setup
 | `/asset/transfer`               | POST       | Transfers ownership of an asset.                | `id`, `newOwner`                                            |
 | `/asset/:id/history`            | GET        | Retrieves the transaction history of a specific asset by ID. | None                                                        |
    
- ![API Diagram](screenshots/Screenshot (458).png)
+ ![API Diagram](screenshots/assests.png)
 
 Example Usage
 -------------
@@ -86,7 +86,7 @@ Example Usage
     ```bash 
     codecurl -X POST http://localhost:5000/ledger/init
     ```
-     ![Initialize Ledger](screenshots/Screenshot (461).png)
+     ![Initialize Ledger](screenshots/Ledger.png)
     
 2.  **Create Asset**:
     ```bash
@@ -109,7 +109,7 @@ Example Usage
     ```bash
     codecurl http://localhost:5000/assets
     ```
-     ![Get Assets](screenshots/Screenshot (460).png)
+     ![Get Assets](screenshots/GetAssets.png)
     
 4.  **Transfer Asset**: POST /asset/transfer
     ```bash
